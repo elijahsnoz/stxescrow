@@ -1,0 +1,16 @@
+[project]
+name = "stx-escrow"
+version = "1.0.0"
+
+[contracts]
+escrow = "contracts/escrow.clar"
+
+[network]
+name = "testnet"
+chain_id = 2147483648
+rpc_url = "https://stacks-node-api.testnet.stacks.co"
+explorer = "https://explorer.stacks.co"
+
+[accounts.deployer]
+mnemonic = "problem roast idle choose shadow dentist fiscal level lesson allow very include"
+balance = 1000000000000000

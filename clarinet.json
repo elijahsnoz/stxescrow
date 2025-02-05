@@ -1,0 +1,11 @@
+{
+  "version": "1",
+  "network": {
+    "name": "testnet",
+    "url": "https://stacks-node-api.testnet.stacks.co"
+  },
+  "sender": "ST1PTBC7PP2X11N7M3K2BTF5HWRDK4J8QMJXKEVVR",
+  "contracts": {
+    "escrow": "contracts/escrow.clar"
+  }
+}
